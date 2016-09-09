@@ -1,0 +1,23 @@
+{
+  "name": "icuify",
+  "version": "0.0.1",
+  "description": "Browserify tool to transform ICU resource bundles to JS objects",
+  "main": "index.js",
+  "homepage": "https://github.com/alex-dow/icuify",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Dowgailenko",
+  "license": "MIT",
+  "dependencies": {
+    "browserify-transform-tools": "^1.6.0",
+    "icu-converter": "^0.1.5"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "icuify": "../../",
+    "load-grunt-tasks": "^3.5.2",
+    "require-globify": "^1.4.1"
+  }
+}

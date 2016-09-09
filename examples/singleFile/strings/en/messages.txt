@@ -1,0 +1,4 @@
+root {
+  hello { "Hello" }
+  goodbye { "Goodbye" }
+}
