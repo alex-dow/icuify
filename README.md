@@ -2,6 +2,12 @@
 
 A browserify transformer to convert ICU bundles into JSON.
 
+## installation
+
+```
+npm install icuify
+```
+
 ## Usage
 
 ICUify will use the icu-converter tool to convert your resource bundles into JSON formats. A simple example is:
